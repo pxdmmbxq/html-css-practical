@@ -1,0 +1,105 @@
+html{
+    color: black;
+    background-color: white;
+    font-family: 'Noto Sans Japanese';
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+}
+#navigation{
+    font-size: 34px;
+    margin: 34px;
+}
+nav>a{
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 10px;
+    color: black;
+}
+nav>a:hover{
+    text-decoration: underline;
+}
+#header>p{
+    border: 1px solid;
+    text-align: center;
+    padding: 0 10px;
+    font-size: 34px;
+    margin: 34px;
+    font-weight: bold;
+}
+
+#main-img>img{
+    width: 100vw;
+}
+.index-h2{
+    font-size: 34px;
+    text-align: center;
+}
+#about-content{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}  
+@media screen and (max-width: 767px){
+    #about-content{
+    display: block;
+    }
+}
+
+#about-img{
+    border-radius: 1000px ;
+    margin: 20px 50px;
+    width: 25%;
+}
+@media screen and (max-width: 767px){
+    #about-img{
+    
+    width: 80%;
+    }
+}
+#about-explain{
+    margin: 20px 50px;
+}
+@media screen and (max-width: 767px){
+    #about-explain{
+    margin: 0 10%;
+    }
+}
+#about-explain>ul{
+    margin: 0 10px;
+}
+.name{
+    font-size: 24px;
+}
+#works-content{
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width: 767px){
+    #works-content{
+    display: block;
+    text-align: center;
+    }
+}
+.works-photo{
+    width: 33%;
+    margin: 15px;
+}
+@media screen and (max-width: 767px){
+    .works-photo{
+    width: 80%;
+    margin: 20px auto;
+    }
+}
+.works-photo>img{
+    width: 100%;
+}
+#copyright{
+    font-size: 18px;
+    text-align: center;
+}
