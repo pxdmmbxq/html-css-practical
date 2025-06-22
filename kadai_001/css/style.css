@@ -46,50 +46,61 @@ nav>a:hover{
 #about-content{
     display: flex;
     justify-content: center;
+    width: 70%;
 }  
-@media screen and (max-width: 767px){
+@media screen and (max-width: 1024px){
     #about-content{
+    justify-content: center;
     display: block;
+    max-width: 767px;
+    width: 90%;
+    margin: 5%;
     }
 }
 
 #about-img{
     border-radius: 1000px ;
-    margin: 20px 50px;
+    margin: 20px 20px 20px auto;
 
 }
-@media screen and (max-width: 767px){
+@media screen and (max-width: 1024px){
     #about-img{
-    
-    width: 80%;
+    width: 100%;
+    max-width: 767px;
+    margin: 0 auto;
     }
 }
 #about-explain{
-    margin: 20px 50px;
+    margin: auto;
 }
-@media screen and (max-width: 767px){
+@media screen and (max-width: 1024px){
     #about-explain{
     margin: 0 10%;
+    max-width: 767px;
+    margin: 0 auto;
     }
 }
 #about-explain>ul{
-    margin: 0 10px;
+    margin: 10px 10px;
 }
 .name{
     font-size: 24px;
+    margin: 0;
 }
 #works-content{
     display: flex;
     justify-content: center;
-    width: 50%;
-    padding: 0 25%;
+    width: 70%;
+    padding: 0 15%;
 }
-@media screen and (max-width: 767px){
+@media screen and (max-width: 1024px){
     #works-content{
     display: block;
     text-align: center;
     width: 100%;
     padding: 0;
+    max-width: 767px;
+    margin: 0 auto;
     }
 }
 .works-photo{
@@ -97,10 +108,12 @@ nav>a:hover{
     margin: 15px;
     margin: 0 10px;
 }
-@media screen and (max-width: 767px){
+@media screen and (max-width: 1024px){
     .works-photo{
     width: 100%;
     margin: 0 10px;
+    max-width: 767px;
+    margin: 0 auto;
     }
 }
 
@@ -112,9 +125,11 @@ nav>a:hover{
 .works-photo>p{
     margin: o ;
 }
-@media screen and (max-width: 767px){
+@media screen and (max-width: 1024px){
     .works-photo>p{
     margin: 0 ;
+    max-width: 767px;
+    margin: 0 auto;
     }
 }
 #copyright{
