@@ -11,9 +11,12 @@ header{
     display: flex;
     justify-content: space-around;
 }
+body{
+    margin: 0;
+}
 #navigation{
     font-size: 34px;
-    margin: 34px;
+    margin: 34px 0px;
 }
 nav>a{
     font-weight: bold;
@@ -34,7 +37,7 @@ nav>a:hover{
 }
 
 #main-img>img{
-    width: 100vw;
+    width: 100%;
 }
 .index-h2{
     font-size: 34px;
@@ -43,8 +46,6 @@ nav>a:hover{
 #about-content{
     display: flex;
     justify-content: center;
-    width: 50%;
-    padding: 0 25%;
 }  
 @media screen and (max-width: 767px){
     #about-content{
@@ -55,6 +56,7 @@ nav>a:hover{
 #about-img{
     border-radius: 1000px ;
     margin: 20px 50px;
+
 }
 @media screen and (max-width: 767px){
     #about-img{
