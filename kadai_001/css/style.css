@@ -45,44 +45,43 @@ nav>a:hover{
 }
 #about-content{
     display: flex;
-    justify-content: center;
-    width: 70%;
-    margin: 0 auto;
+    margin: 20px auto;
+    width: 960px;
+    max-width: 960px;
+
 }  
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 767px){
     #about-content{
-    justify-content: center;
     display: block;
-    max-width: 767px;
-    width: 90%;
-    margin: 5%;
+    width: 80%;
+    margin: 10 auto ;
     }
 }
-
-#about-img{
-    border-radius: 1000px ;
-    margin: auto 20px 20px 0;
-
+#about-photo{
+    width: 300px;
+    margin: auto ;
 }
-@media screen and (max-width: 1024px){
-    #about-img{
-    width: 100%;
-    max-width: 767px;
+#about-photo>img{
+    border-radius: 50% ;
+}
+@media screen and (max-width: 767px){
+    #about-photo{
+    width: 300px;
     margin: 0 auto;
     }
 }
 #about-explain{
-    margin: auto 0 auto auto;
+    margin: auto ;
 }
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 767px){
     #about-explain{
-    margin: 0 10%;
-    max-width: 767px;
     margin: 0 auto;
+
     }
 }
 #about-explain>ul{
     margin: 10px 10px;
+    font-size: 18px;
 }
 .name{
     font-size: 24px;
@@ -91,47 +90,37 @@ nav>a:hover{
 #works-content{
     display: flex;
     justify-content: center;
-    width: 70%;
-    padding: 0 15%;
+    width: 960px;
+    max-width: 960px;
+    margin: 0 auto ;
 }
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 767px){
     #works-content{
     display: block;
     text-align: center;
     width: 100%;
     padding: 0;
-    max-width: 767px;
     margin: 0 auto;
     }
 }
 .works-photo{
-    width: 33%;
-    margin: 15px;
+    width: 320px;
     margin: 0 10px;
 }
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 767px){
     .works-photo{
     width: 100%;
-    margin: 0 10px;
-    max-width: 767px;
     margin: 0 auto;
     }
 }
-
 
 .works-photo>img{
     width: 100%;
 }
 
 .works-photo>p{
-    margin: o ;
-}
-@media screen and (max-width: 1024px){
-    .works-photo>p{
-    margin: 0 ;
-    max-width: 767px;
-    margin: 0 auto;
-    }
+    margin: 0 0 60px 0 ;
+    font-size: 18px;
 }
 #copyright{
     font-size: 18px;
